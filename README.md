@@ -39,3 +39,8 @@ Lane Boundary Modeling
 Current/Ego Lane Estimation
      ↓
 ADAS Visualization
+
+
+# Collision Warning and Automatic Speed Control
+Using Simulink.
+Phase 6 detects when a vehicle/object is too close, gives a collision warning and automatically reduces the vehicle speed from 40 km/h to 20 km/h.
