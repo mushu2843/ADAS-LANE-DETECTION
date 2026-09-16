@@ -87,3 +87,7 @@ The final output is displayed continuously through an ADAS HUD/dashboard, and th
 # Phase 6: Collision Warning and Automatic Speed Control
 Using Simulink.
 Basically Phase 6 detects when a vehicle/object is too close, gives a collision warning and automatically reduces the vehicle speed from 40 km/h to 20 km/h.
+
+
+# Phase 7 focused on improving the simulation environment rather than changing the core ADAS logic.
+The model was configured to use a fixed-step discrete solver, making it suitable for the current ADAS decision-based system. Performance monitoring scopes were added to observe the behavior of the Lane Departure Warning, Collision Warning, AEB system, and vehicle speed.
