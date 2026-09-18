@@ -94,3 +94,6 @@ The model was configured to use a fixed-step discrete solver, making it suitable
 
 # Phase 8: 
 Implemented virtual CAN communication in Simulink to transmit vehicle-speed data, receive and decode it, and use the CAN-received speed in our ADAS system for collision warning and AEB testing.
+
+SIL Validation: Implemented Software-in-the-Loop simulation to validate the ADAS controller before hardware deployment. The controller was tested with different vehicle-speed and distance conditions, and the SIL outputs were verified against the expected collision-warning and AEB responses.
+
