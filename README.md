@@ -97,3 +97,6 @@ Implemented virtual CAN communication in Simulink to transmit vehicle-speed data
 
 SIL Validation: Implemented Software-in-the-Loop simulation to validate the ADAS controller before hardware deployment. The controller was tested with different vehicle-speed and distance conditions, and the SIL outputs were verified against the expected collision-warning and AEB responses.
 
+# Phase 9 
+successfully demonstrated Software-in-the-Loop validation and a HIL-style closed-loop simulation of the ADAS controller. MATLAB lane information, CAN vehicle-speed communication, Stateflow decision logic, collision detection, AEB, automatic speed control, and the simulated vehicle plant were integrated into a common test environment. The controller produced the expected responses for normal driving, collision-warning, and emergency-braking scenarios, and the SIL results were consistent with the original Simulink controller for the tested conditions.
+
