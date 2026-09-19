@@ -40,7 +40,7 @@ Current/Ego Lane Estimation
      ↓
 ADAS Visualization
 
-# 2 — Vehicle Detection and Tracking
+# 2: Vehicle Detection and Tracking
 
 Road Video → Vehicle Detection → Vehicle Classification → Vehicle Position Analysis → Vehicle Counting → Multi-Vehicle Tracking
 
@@ -51,7 +51,7 @@ It calculates their position as left, center, or right in the camera view.
 Finally, it tracks vehicles across multiple frames using unique IDs.
 
 
-# 3 — Vehicle State Information
+# 3: Vehicle State Information
 
 Vehicle Detection Data → Vehicle Position → Speed Information → Distance Estimation → Lateral Position → Vehicle State Summary
 
@@ -62,7 +62,7 @@ It also calculates their approximate lateral position.
 All this information is combined to understand the current traffic situation.
 
 
-# 4 — ADAS Lane Guidance
+# 4: ADAS Lane Guidance
 
 Vehicle State Information → Speed + Distance + Lane + Vehicle Type → Decision Fusion → ADAS Guidance → Safety Action
 
@@ -74,7 +74,7 @@ Finally, all inputs are combined to produce an ADAS safety decision.
 
 
 
-# 5 — Integrated ADAS System
+# 5: Integrated ADAS System
 
 Road Video → Lane Detection + Vehicle Detection → Vehicle State Analysis → ADAS Decision → HUD Visualization → Continuous Processing → Validation
 
