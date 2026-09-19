@@ -1,7 +1,7 @@
 # ADAS-LANE-DETECTION
 My M.tech Project
 
-# Project Objective
+# Objective
 
 The project aims to develop an ADAS (Advanced Driver Assistance System) prototype capable of understanding the road environment and providing lane-related guidance to the driver.
 
